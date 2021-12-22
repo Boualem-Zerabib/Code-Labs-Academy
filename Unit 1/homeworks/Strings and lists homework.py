@@ -8,3 +8,4 @@ print(l)
 print("-the length of my list is :" , len(l))
 for k in l:
    print("the square of", k ,"is :", k**2 )
+print("is 57 a part of the list ?" , 57 in l )
