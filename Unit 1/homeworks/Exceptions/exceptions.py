@@ -1,4 +1,10 @@
-a = 12 
+a = 12
 s = "hello"
-a = str(a)
-print(a+s)
+try:
+    a + s 
+except: 
+    a = str(a)
+else:
+    s = int(s)
+finally:
+    print(a+s)
